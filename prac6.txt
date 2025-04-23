@@ -1,0 +1,1 @@
+http://localhost/DVWA-master/setup.php  #to open dvwa
