@@ -3,3 +3,4 @@ nmap -sF -p21 scanme.nmap.org
 nmap -sX -p21 scanme.nmap.org
 nmap -sN -p21 scanme.nmap.org
 nmap -sA -p21 scanme.nmap.org
+nmap -sV -p21 scanme.nmap.org
